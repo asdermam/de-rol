@@ -29,6 +29,27 @@ const observer = new IntersectionObserver(entries => {
 document.querySelectorAll('.reveal').forEach(element => observer.observe(element));
 document.getElementById('year').textContent = new Date().getFullYear();
 
+const lightbox = document.getElementById('gallery-lightbox');
+const lightboxImage = lightbox.querySelector('img');
+const lightboxClose = lightbox.querySelector('.gallery-lightbox-close');
+
+document.querySelectorAll('.gallery-card').forEach(card => {
+  card.addEventListener('click', () => {
+    lightboxImage.src = card.dataset.galleryImage;
+    lightboxImage.alt = card.dataset.galleryAlt;
+    lightbox.showModal();
+  });
+});
+
+lightboxClose.addEventListener('click', () => lightbox.close());
+lightbox.addEventListener('click', event => {
+  if (event.target === lightbox) lightbox.close();
+});
+lightbox.addEventListener('close', () => {
+  lightboxImage.src = '';
+  lightboxImage.alt = '';
+});
+
 document.querySelectorAll('a[href="#oldal-teteje"]').forEach(link => {
   link.addEventListener('click', event => {
     event.preventDefault();

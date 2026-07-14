@@ -8,7 +8,7 @@
   <title>Dé-Rol Tetőmester Baranya | Tetőépítés és tetőfelújítás</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="preload" href="assets/hero-roof.png" as="image" fetchpriority="high">
-  <link rel="stylesheet" href="styles.css?v=20260714-contact-cream-2">
+  <link rel="stylesheet" href="styles.css?v=20260714-gallery-1">
 </head>
 <body id="oldal-teteje">
   <a class="skip-link" href="#tartalom">Ugrás a tartalomra</a>
@@ -24,6 +24,7 @@
       </button>
       <nav class="site-nav" id="site-nav" aria-label="Főmenü">
         <a href="#szolgaltatasok">Szolgáltatások</a>
+        <a href="#referenciak">Referenciák</a>
         <a href="#miert-mi">Miért mi?</a>
         <a href="#folyamat">A folyamat</a>
         <a href="#kapcsolat">Kapcsolat</a>
@@ -105,6 +106,48 @@
             <li><span>03</span> Rendezett munkavégzés</li>
             <li><span>04</span> Átlátható feltételek</li>
           </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery section" id="referenciak" aria-labelledby="gallery-title">
+      <div class="shell">
+        <div class="gallery-heading reveal">
+          <div>
+            <p class="kicker">Válogatott munkáink</p>
+            <h2 id="gallery-title">A szerkezettől<br><em>a kész tetőig.</em></h2>
+          </div>
+          <div class="gallery-intro">
+            <p>Részletek egy baranyai tető teljes megújulásából: gondos szerkezeti munka, pontos lécezés és rendezett végeredmény.</p>
+            <a class="text-link dark" href="https://www.facebook.com/profile.php?id=61582800480363" target="_blank" rel="noopener">További munkák a Facebookon <span>↗</span></a>
+          </div>
+        </div>
+
+        <div class="gallery-grid">
+          <button class="gallery-card gallery-card--tall reveal" type="button" data-gallery-image="assets/gallery/elkeszult-teto-referencia.jpg" data-gallery-alt="Elkészült cserépfedés utcai nézetből">
+            <img src="assets/gallery/elkeszult-teto-referencia.jpg" alt="Elkészült cserépfedés utcai nézetből" width="1536" height="2048" loading="lazy">
+            <span><b>Végeredmény</b><i>01</i></span>
+          </button>
+          <button class="gallery-card gallery-card--wide reveal" type="button" data-gallery-image="assets/gallery/elkeszult-teto-bejarat.jpg" data-gallery-alt="Tetőszerkezet kialakítása felülnézetből">
+            <img src="assets/gallery/elkeszult-teto-bejarat.jpg" alt="Tetőszerkezet kialakítása felülnézetből" width="2048" height="1536" loading="lazy">
+            <span><b>Szerkezetépítés</b><i>02</i></span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-gallery-image="assets/gallery/tetoszerkezet-epites.jpg" data-gallery-alt="Elkészült új cseréptető oldalnézetből">
+            <img src="assets/gallery/tetoszerkezet-epites.jpg" alt="Elkészült új cseréptető oldalnézetből" width="1536" height="2048" loading="lazy">
+            <span><b>Precíz fedés</b><i>03</i></span>
+          </button>
+          <button class="gallery-card gallery-card--wide reveal" type="button" data-gallery-image="assets/gallery/elkeszult-teto-hatso-oldal.jpg" data-gallery-alt="Tetőszerkezet építése munka közben">
+            <img src="assets/gallery/elkeszult-teto-hatso-oldal.jpg" alt="Tetőszerkezet építése munka közben" width="1536" height="2048" loading="lazy">
+            <span><b>Tetőszerkezet</b><i>04</i></span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-gallery-image="assets/gallery/acsmunka-reszlet.jpg" data-gallery-alt="Tetőlécezés és fóliázás részlete">
+            <img src="assets/gallery/acsmunka-reszlet.jpg" alt="Tetőlécezés és fóliázás részlete" width="1536" height="2048" loading="lazy">
+            <span><b>Lécezés</b><i>05</i></span>
+          </button>
+          <button class="gallery-card gallery-card--tall reveal" type="button" data-gallery-image="assets/gallery/elkeszult-teto-oldalnezet.jpg" data-gallery-alt="Elkészült cseréptető udvari nézetből">
+            <img src="assets/gallery/elkeszult-teto-oldalnezet.jpg" alt="Elkészült cseréptető udvari nézetből" width="1536" height="2048" loading="lazy">
+            <span><b>Udvari nézet</b><i>06</i></span>
+          </button>
         </div>
       </div>
     </section>
@@ -209,6 +252,11 @@
       <a href="https://provendo.hu/ad/de-rol-tetomester-baranya-504452" target="_blank" rel="noopener">Nyilvános profil ↗</a>
     </div>
   </footer>
+
+  <dialog class="gallery-lightbox" id="gallery-lightbox" aria-label="Referenciafotó nagyított nézete">
+    <button class="gallery-lightbox-close" type="button" aria-label="Bezárás">×</button>
+    <img src="" alt="">
+  </dialog>
 
   <div class="toast" id="toast" role="status" aria-live="polite">Az üzenetet kimásoltuk. Nyílik az ajánlatkérő oldal…</div>
   <script src="script.js"></script>
