@@ -148,18 +148,18 @@ summary span::after { transform: rotate(90deg); }
 details[open] summary span::after { transform: rotate(0); }
 details p { color: #5c6664; max-width: 650px; margin: -3px 50px 26px 0; }
 
-.contact { background: var(--orange); color: var(--white); }
+.contact { background: var(--cream); color: var(--ink); }
 .contact-grid { display: grid; grid-template-columns: .7fr 1.3fr; gap: 100px; align-items: start; }
-.contact-intro h2 em { color: var(--ink); }
-.contact-intro > p:not(.kicker) { color: rgba(255,255,255,.76); max-width: 430px; margin: 28px 0 0; }
-.contact-list { border-top: 1px solid rgba(255,255,255,.35); }
-.contact-list > a { min-height: 112px; display: grid; grid-template-columns: 155px 1fr 44px; gap: 25px; align-items: center; border-bottom: 1px solid rgba(255,255,255,.35); transition: padding .22s, background .22s; }
-.contact-list > a:hover { padding-inline: 16px; background: rgba(20,33,31,.1); }
+.contact-intro h2 em { color: var(--orange-bright); }
+.contact-intro > p:not(.kicker) { color: var(--ink-soft); max-width: 430px; margin: 28px 0 0; }
+.contact-list { border-top: 1px solid var(--line); }
+.contact-list > a { min-height: 112px; display: grid; grid-template-columns: 155px 1fr 44px; gap: 25px; align-items: center; border-bottom: 1px solid var(--line); transition: padding .22s, background .22s; }
+.contact-list > a:hover { padding-inline: 16px; background: rgba(214,107,61,.08); }
 .contact-list span { display: flex; flex-direction: column; }
-.contact-list small { margin-bottom: 5px; text-transform: uppercase; letter-spacing: .15em; font-size: 9px; color: rgba(255,255,255,.62); }
+.contact-list small { margin-bottom: 5px; text-transform: uppercase; letter-spacing: .15em; font-size: 9px; color: var(--orange); }
 .contact-list strong { font-size: 13px; font-weight: 500; }
-.contact-list b { font-family: var(--display); font-size: clamp(20px, 2.1vw, 31px); letter-spacing: -.045em; font-weight: 500; overflow-wrap: anywhere; }
-.contact-list i { width: 42px; height: 42px; border: 1px solid rgba(255,255,255,.48); border-radius: 50%; display: grid; place-items: center; justify-self: end; font-style: normal; }
+.contact-list b { color: var(--orange); font-family: var(--display); font-size: clamp(20px, 2.1vw, 31px); letter-spacing: -.045em; font-weight: 500; overflow-wrap: anywhere; }
+.contact-list i { width: 42px; height: 42px; color: var(--orange); border: 1px solid rgba(214,107,61,.48); border-radius: 50%; display: grid; place-items: center; justify-self: end; font-style: normal; }
 
 .quote { background: var(--ink); color: var(--white); position: relative; overflow: hidden; }
 .quote::before { content: ""; position: absolute; width: 620px; height: 620px; border: 1px solid rgba(255,255,255,.06); border-radius: 50%; left: -220px; bottom: -390px; box-shadow: 0 0 0 80px rgba(255,255,255,.02), 0 0 0 160px rgba(255,255,255,.02); }
