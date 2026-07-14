@@ -158,26 +158,17 @@
         <div class="quote-copy reveal">
           <p class="kicker light">06 — Ajánlatkérés</p>
           <h2 id="quote-title">Az Ön tetője.<br><em>A mi figyelmünk.</em></h2>
-          <p>Írja meg néhány mondatban a feladatot. Az ajánlatkérést biztonságos kapcsolaton, közvetlenül e-mailben továbbítjuk.</p>
+          <p>Írja meg néhány mondatban a feladatot. A rendszer kimásolja az üzenetet, majd átirányítja a nyilvános ajánlatkérő oldalra.</p>
         </div>
-        <form class="quote-form reveal" id="quote-form" action="https://api.web3forms.com/submit" method="POST">
-          <input type="hidden" name="access_key" value="68abbfce-9bb6-4d27-a834-8bf785e7f7ff">
-          <input type="hidden" name="subject" value="Új ajánlatkérés – Dé-Rol Tetőmester weboldal">
-          <input type="hidden" name="from_name" value="Dé-Rol Tetőmester weboldal">
-          <input type="hidden" name="redirect" value="https://asdermam.github.io/de-rol/?sent=1#ajanlat">
-          <input class="botcheck" type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <form class="quote-form reveal" id="quote-form">
           <div class="field-row">
             <label><span>Név</span><input type="text" name="name" autocomplete="name" required placeholder="Az Ön neve"></label>
-            <label><span>E-mail-cím</span><input type="email" name="email" autocomplete="email" required placeholder="nev@email.hu"></label>
+            <label><span>Település</span><input type="text" name="city" autocomplete="address-level2" required placeholder="pl. Pécs"></label>
           </div>
-          <div class="field-row">
-            <label><span>Település</span><input type="text" name="Település" autocomplete="address-level2" required placeholder="pl. Pécs"></label>
-            <label><span>Miben segíthetünk?</span><select name="Szolgáltatás" required><option value="" selected disabled>Válasszon szolgáltatást</option><option>Tetőépítés</option><option>Tetőfelújítás</option><option>Tetőjavítás</option><option>Egyéb / még nem tudom</option></select></label>
-          </div>
+          <label><span>Miben segíthetünk?</span><select name="service" required><option value="" selected disabled>Válasszon szolgáltatást</option><option>Tetőépítés</option><option>Tetőfelújítás</option><option>Tetőjavítás</option><option>Egyéb / még nem tudom</option></select></label>
           <label><span>Rövid leírás</span><textarea name="message" rows="4" required placeholder="Pár mondat a tetőről, a hibáról vagy az elképzelésről…"></textarea></label>
-          <button class="button button-primary" type="submit">Ajánlatkérés elküldése <span>↗</span></button>
-          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
-          <p class="form-note">Az adatokat a <a href="https://web3forms.com/privacy" target="_blank" rel="noopener">Web3Forms</a> továbbítja, és a szolgáltató ingyenes csomagjában legfeljebb 30 napig tárolhatja.</p>
+          <button class="button button-primary" type="submit">Ajánlatkérés indítása <span>↗</span></button>
+          <p class="form-note">Az elküldéssel egy külső, nyilvános kapcsolatfelvételi oldal nyílik meg.</p>
         </form>
       </div>
     </section>

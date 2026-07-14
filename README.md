@@ -20,9 +20,9 @@ Források:
 - [ProVendo — Dé-Rol Tetőmester Baranya](https://provendo.hu/ad/de-rol-tetomester-baranya-504452)
 - [Tudjukki.hu — fa előtető szakemberek Pécsen](https://www.tudjukki.hu/fa-elotetok/pecs)
 
-## Ajánlatkérő űrlap
+## Fontos indulás előtti teendő
 
-Az ajánlatkérőt a Web3Forms továbbítja e-mailben. A beállított hozzáférési kulcs nyilvános kliensoldali azonosító; a Web3Forms dokumentációja szerint weboldalba ágyazható, és nem titkos kulcs. Az ingyenes csomag jelenleg havi 250 beküldést tartalmaz, a beküldött adatokat pedig a szolgáltató legfeljebb 30 napig tárolhatja. Az éles használat előtt érdemes egy teljes próbaküldést végezni, és ellenőrizni a fogadó postafiók spam mappáját is.
+A jelenlegi ajánlatkérő a kitöltött üzenetet a vágólapra másolja, majd megnyitja a nyilvános ProVendo-profilt. Élesítés előtt érdemes ezt a cég ellenőrzött telefonszámára, e-mail-címére vagy saját űrlapfeldolgozó rendszerére cserélni.
 
 Az `assets/hero-roof.png` egy eredeti, AI-val készített hangulatkép, nem céges referenciamunka. Emiatt a weboldal sehol nem állítja, hogy a fotón látható tetőt a Dé-Rol kivitelezte.
 
