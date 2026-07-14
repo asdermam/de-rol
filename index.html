@@ -158,25 +158,17 @@
         <div class="quote-copy reveal">
           <p class="kicker light">06 — Ajánlatkérés</p>
           <h2 id="quote-title">Az Ön tetője.<br><em>A mi figyelmünk.</em></h2>
-          <p>Írja meg néhány mondatban a feladatot. Az elküldött ajánlatkérés közvetlenül e-mailben érkezik meg hozzánk.</p>
+          <p>Írja meg néhány mondatban a feladatot. A rendszer kimásolja az üzenetet, majd átirányítja a nyilvános ajánlatkérő oldalra.</p>
         </div>
-        <form class="quote-form reveal" id="quote-form" action="https://formsubmit.co/orcshaman13@gmail.com" method="POST">
-          <input type="hidden" name="_subject" value="Új ajánlatkérés – Dé-Rol Tetőmester weboldal">
-          <input type="hidden" name="_template" value="table">
-          <input type="hidden" name="_next" value="https://asdermam.github.io/de-rol/?sent=1#ajanlat">
-          <input type="hidden" name="_url" value="https://asdermam.github.io/de-rol/">
-          <label class="honey-field" aria-hidden="true"><span>Weboldal</span><input type="text" name="_honey" tabindex="-1" autocomplete="off"></label>
+        <form class="quote-form reveal" id="quote-form">
           <div class="field-row">
-            <label><span>Név</span><input type="text" name="Név" autocomplete="name" required placeholder="Az Ön neve"></label>
-            <label><span>E-mail-cím</span><input type="email" name="email" autocomplete="email" required placeholder="nev@email.hu"></label>
+            <label><span>Név</span><input type="text" name="name" autocomplete="name" required placeholder="Az Ön neve"></label>
+            <label><span>Település</span><input type="text" name="city" autocomplete="address-level2" required placeholder="pl. Pécs"></label>
           </div>
-          <div class="field-row">
-            <label><span>Település</span><input type="text" name="Település" autocomplete="address-level2" required placeholder="pl. Pécs"></label>
-            <label><span>Miben segíthetünk?</span><select name="Szolgáltatás" required><option value="" selected disabled>Válasszon szolgáltatást</option><option>Tetőépítés</option><option>Tetőfelújítás</option><option>Tetőjavítás</option><option>Egyéb / még nem tudom</option></select></label>
-          </div>
-          <label><span>Rövid leírás</span><textarea name="Üzenet" rows="4" required placeholder="Pár mondat a tetőről, a hibáról vagy az elképzelésről…"></textarea></label>
-          <button class="button button-primary" type="submit">Ajánlatkérés elküldése <span>↗</span></button>
-          <p class="form-note">Az elküldött adatokat a <a href="https://formsubmit.co/privacy.pdf" target="_blank" rel="noopener">FormSubmit</a> továbbítja e-mailben. A küldés során emberi ellenőrzés jelenhet meg.</p>
+          <label><span>Miben segíthetünk?</span><select name="service" required><option value="" selected disabled>Válasszon szolgáltatást</option><option>Tetőépítés</option><option>Tetőfelújítás</option><option>Tetőjavítás</option><option>Egyéb / még nem tudom</option></select></label>
+          <label><span>Rövid leírás</span><textarea name="message" rows="4" required placeholder="Pár mondat a tetőről, a hibáról vagy az elképzelésről…"></textarea></label>
+          <button class="button button-primary" type="submit">Ajánlatkérés indítása <span>↗</span></button>
+          <p class="form-note">Az elküldéssel egy külső, nyilvános kapcsolatfelvételi oldal nyílik meg.</p>
         </form>
       </div>
     </section>
