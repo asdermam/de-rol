@@ -150,6 +150,7 @@ details p { color: #5c6664; max-width: 650px; margin: -3px 50px 26px 0; }
 
 .contact { background: var(--cream); color: var(--ink); }
 .contact-grid { display: grid; grid-template-columns: .7fr 1.3fr; gap: 100px; align-items: start; }
+.contact .kicker { color: var(--orange); }
 .contact-intro h2 em { color: var(--orange-bright); }
 .contact-intro > p:not(.kicker) { color: var(--ink-soft); max-width: 430px; margin: 28px 0 0; }
 .contact-list { border-top: 1px solid var(--line); }
