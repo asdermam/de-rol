@@ -22,7 +22,7 @@ Források:
 
 ## Fontos indulás előtti teendő
 
-A jelenlegi ajánlatkérő a kitöltött üzenetet a vágólapra másolja, majd megnyitja a nyilvános ProVendo-profilt. Élesítés előtt érdemes ezt a cég ellenőrzött telefonszámára, e-mail-címére vagy saját űrlapfeldolgozó rendszerére cserélni.
+A jelenlegi ajánlatkérő a FormSubmit statikus űrlap-relén keresztül a `orcshaman13@gmail.com` tesztcímre továbbítja az üzeneteket. Az első beküldés után a címzettnek meg kell erősítenie a FormSubmit aktiváló e-mailjét. Éles átadás előtt a tesztcímet a cég ellenőrzött e-mail-címére kell cserélni.
 
 Az `assets/hero-roof.png` egy eredeti, AI-val készített hangulatkép, nem céges referenciamunka. Emiatt a weboldal sehol nem állítja, hogy a fotón látható tetőt a Dé-Rol kivitelezte.
 

@@ -36,25 +36,14 @@ document.querySelectorAll('a[href="#oldal-teteje"]').forEach(link => {
   });
 });
 
-const form = document.getElementById('quote-form');
 const toast = document.getElementById('toast');
-const publicProfile = 'https://provendo.hu/ad/de-rol-tetomester-baranya-504452';
+const params = new URLSearchParams(window.location.search);
 
-form.addEventListener('submit', async event => {
-  event.preventDefault();
-  const data = new FormData(form);
-  const text = `Ajánlatkérés a weboldalról\n\nNév: ${data.get('name')}\nTelepülés: ${data.get('city')}\nSzolgáltatás: ${data.get('service')}\n\nLeírás:\n${data.get('message')}`;
-
-  try {
-    await navigator.clipboard.writeText(text);
-    toast.textContent = 'Az üzenetet kimásoltuk. Nyílik az ajánlatkérő oldal…';
-  } catch {
-    toast.textContent = 'Nyílik a nyilvános ajánlatkérő oldal…';
-  }
-
+if (params.get('sent') === '1') {
+  toast.textContent = 'Köszönjük! Az ajánlatkérés elküldése sikerült.';
   toast.classList.add('show');
   setTimeout(() => {
-    window.open(publicProfile, '_blank', 'noopener');
     toast.classList.remove('show');
-  }, 700);
-});
+  }, 5000);
+  window.history.replaceState({}, '', `${window.location.pathname}${window.location.hash}`);
+}

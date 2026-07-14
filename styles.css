@@ -165,6 +165,8 @@ details p { color: #5c6664; max-width: 650px; margin: -3px 50px 26px 0; }
 .quote-form option { color: var(--ink); }
 .quote-form .button { align-self: flex-start; margin-top: 13px; }
 .form-note { font-size: 11px; color: rgba(255,255,255,.45); margin: 0; }
+.form-note a { color: rgba(255,255,255,.72); text-decoration: underline; text-underline-offset: 2px; }
+.honey-field { position: absolute !important; left: -10000px !important; width: 1px !important; height: 1px !important; overflow: hidden !important; }
 
 .site-footer { background: #0d1716; color: var(--white); padding: 70px 0 24px; }
 .footer-top { display: grid; grid-template-columns: 1fr 1fr auto; align-items: center; padding-bottom: 60px; border-bottom: 1px solid rgba(255,255,255,.12); }
