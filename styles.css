@@ -183,11 +183,12 @@ details p { color: #5c6664; max-width: 650px; margin: -3px 50px 26px 0; }
 
 @media (max-width: 980px) {
   .section { padding-block: 95px; }
+  .site-header.scrolled { backdrop-filter: none; -webkit-backdrop-filter: none; }
   .menu-button { display: block; }
   .menu-button[aria-expanded="true"] > span:first-child { transform: translateY(7px) rotate(45deg); }
   .menu-button[aria-expanded="true"] > span:nth-child(2) { opacity: 0; }
   .menu-button[aria-expanded="true"] > span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
-  .site-nav { position: fixed; inset: 0; background: var(--ink); padding: 130px 30px 50px; flex-direction: column; align-items: flex-start; gap: 0; opacity: 0; visibility: hidden; transform: translateY(-15px); transition: .25s; }
+  .site-nav { position: fixed; inset: 0; width: 100vw; min-height: 100vh; min-height: 100dvh; overflow-y: auto; overscroll-behavior: contain; background: var(--ink); padding: 130px 30px 50px; flex-direction: column; align-items: flex-start; gap: 0; opacity: 0; visibility: hidden; transform: translateY(-15px); transition: .25s; }
   .site-nav.open { opacity: 1; visibility: visible; transform: none; }
   .site-nav > a { font-family: var(--display); width: 100%; font-size: 28px; padding: 15px 0; border-bottom: 1px solid rgba(255,255,255,.12); }
   .site-nav .nav-cta { margin-top: 22px; width: auto; font-family: var(--body); font-size: 13px; padding: 14px 17px; }
