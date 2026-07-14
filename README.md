@@ -18,6 +18,7 @@ Prémium, reszponzív, magyar nyelvű bemutatkozó és ajánlatkérő weboldal. 
 Források:
 
 - [ProVendo — Dé-Rol Tetőmester Baranya](https://provendo.hu/ad/de-rol-tetomester-baranya-504452)
+- [Facebook — Dé-Rol Tetőmester Baranya](https://www.facebook.com/p/D%C3%A9-Rol-Tet%C5%91mester-Baranya-61582800480363/)
 - [Tudjukki.hu — fa előtető szakemberek Pécsen](https://www.tudjukki.hu/fa-elotetok/pecs)
 
 ## Fontos indulás előtti teendő
@@ -25,6 +26,8 @@ Források:
 A jelenlegi ajánlatkérő a kitöltött üzenetet a vágólapra másolja, majd megnyitja a nyilvános ProVendo-profilt. Élesítés előtt érdemes ezt a cég ellenőrzött telefonszámára, e-mail-címére vagy saját űrlapfeldolgozó rendszerére cserélni.
 
 Az `assets/hero-roof.png` egy eredeti, AI-val készített hangulatkép, nem céges referenciamunka. Emiatt a weboldal sehol nem állítja, hogy a fotón látható tetőt a Dé-Rol kivitelezte.
+
+Az `assets/de-rol-logo.jpg` a cég hivatalos Facebook-oldalának profilképe, és a fejlécben, valamint a láblécben jelenik meg.
 
 ## Fájlok
 
