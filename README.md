@@ -13,7 +13,14 @@ Prémium, reszponzív, magyar nyelvű bemutatkozó és ajánlatkérő weboldal. 
 - Ingyenes helyszíni felmérést hirdetnek.
 - Anyagbeszerzés: megbeszélés szerint.
 - Garancia: meghatározott munkákra.
-- A nyilvános hirdetés Roland nevet mutat, a telefonszámot azonban maszkolja. Emiatt a weboldal nem tartalmaz kitalált telefonszámot vagy e-mail-címet.
+- A nyilvános hirdetés Roland nevet mutat, a telefonszámot azonban maszkolja; a weboldalon ezért kizárólag a megrendelőtől közvetlenül kapott elérhetőségek szerepelnek.
+
+A megrendelőtől kapott kapcsolati adatok:
+
+- Roland: `+36 20 200 9909`
+- Dénes: `+36 70 804 6093`
+- E-mail: `deroltetomester@gmail.com`
+- Facebook: a weboldalon hivatkozott Dé-Rol-profil
 
 Források:
 
