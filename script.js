@@ -29,6 +29,13 @@ const observer = new IntersectionObserver(entries => {
 document.querySelectorAll('.reveal').forEach(element => observer.observe(element));
 document.getElementById('year').textContent = new Date().getFullYear();
 
+document.querySelectorAll('a[href="#oldal-teteje"]').forEach(link => {
+  link.addEventListener('click', event => {
+    event.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+});
+
 const form = document.getElementById('quote-form');
 const toast = document.getElementById('toast');
 const publicProfile = 'https://provendo.hu/ad/de-rol-tetomester-baranya-504452';
